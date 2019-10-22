@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+
+class Block
+{
+	int id,on;
+	
+	public Block(int i)
+	{
+		this.on = -1;
+		this.id = i;
+	}
+}
+
+public class demo 
+{
+	List<Block> curr;
+	List<Block> goal;
+	boolean hand;
+	int n;
+	
+	public demo(int n)
+	{
+		curr = new ArrayList<>();
+		goal = new ArrayList<>();
+		hand = true;
+		this.n = n;
+	}
+	
+	
+	public static void main(System[] args)
+	{
+		Scanner sc =  new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+	}
+}
